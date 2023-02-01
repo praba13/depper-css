@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,700;1,300&display=swap';
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+}
+
+h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  font-size: 75px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 120px 0;
+}
+
+.start {
+  background-color: brown;
+  color: white;
+}
+
+.middle {
+  background-color: yellowgreen;
+}
+
+.end {
+  background-image: url(../images/51.jpg);
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em;
+  color: white;
+}
+
+.btn-normal {
+  background: rgb(218, 171, 176);
+}
+
+.btn-normal:hover {
+  background: rgb(73, 45, 45);
+}
+
+.btn-ghost {
+  background-color: rgb(51, 63, 28);
+}
+
+.btn-ghost:hover {
+  background-color: rgb(93, 134, 17);
+}
+
+.btn-awesome {
+  background-color: rgb(58, 58, 165);
+}
+
+.btn-awesome:hover {
+  background-color: rgb(85, 85, 139);
+}

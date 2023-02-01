@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* p {
+  margin-left: 50px;
+  width: auto; 
+ }
+ */
+
+/* .container {
+  position: relative;
+} */
+
+/* SIBBLING */
+
+/* .site-header {
+  position: relative;
+} */
+
+/* .testimonial {
+  width: 50%;
+} */
+
+.testimonial {
+  position: relative;
+  padding: 2rem;
+}
+
+.testimonial__name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* .testimonial__quote::before {
+  content: open-quote;
+  font-size: 10rem;
+  color: red;
+
+  position: absolute;
+  left: -3rem;
+  top: -5rem;
+}
+ */

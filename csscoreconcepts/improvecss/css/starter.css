@@ -1,0 +1,45 @@
+@import 'https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,700;1,300&display=swap';
+
+body {
+  margin: 0;
+  font-family: 'Lato', serif;
+}
+
+h1 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  font-size: 75px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.start {
+  background-color: brown;
+  color: white;
+}
+
+.middle {
+  background-color: yellowgreen;
+}
+
+.end {
+  background-image: url(../images/51.jpg);
+}

@@ -1,0 +1,40 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+  grid-template-areas:
+    'eins eins zwei'
+    'drei vier zwei'
+    'fuenf vier sechs';
+}
+
+.item-1 {
+  background-color: skyblue;
+  grid-area: eins;
+}
+
+.item-2 {
+  background-color: brown;
+  grid-area: zwei;
+}
+
+.item-3 {
+  background-color: yellow;
+  grid-area: drei;
+}
+
+.item-4 {
+  background-color: orange;
+  grid-area: vier;
+}
+
+.item-5 {
+  background-color: green;
+  grid-area: fuenf;
+}
+
+.item-6 {
+  background-color: red;
+  grid-area: sechs;
+}

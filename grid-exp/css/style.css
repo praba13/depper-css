@@ -92,12 +92,19 @@ body {
 }
 
 .layout {
+  display: grid;
+  grid-template-columns: 1fr 2.5 fr;
+  grid-template-areas:
+    'header header'
+    'sidebar main'
+    'sidebar footer';
 }
 
 .header {
   background-color: rgb(113, 113, 175);
   color: #fff;
   padding: 20px;
+  grid-area: header;
 }
 
 .sidebar {
@@ -105,11 +112,13 @@ body {
   font-size: 0.8rem;
   color: #999;
   padding: 20px;
+  grid-area: sidebar;
 }
 
 .main {
   padding: 20px;
   line-height: 1.7;
+  grid-area: main;
 }
 
 .footer {
@@ -117,11 +126,17 @@ body {
   color: #fff;
   padding: 15px;
   font-size: 0.75rem;
+  grid-area: footer;
+  align-self: flex-end;
 }
 
 .responsive-example {
   max-width: 1100px;
   margin: 20px auto;
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
 }
 
 .responsive-item {

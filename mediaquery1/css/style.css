@@ -1,0 +1,55 @@
+body {
+  color: red;
+}
+.box_1 {
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+}
+
+.box_2 {
+  background-color: darkgoldenrod;
+  color: white;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+@media screen and (width > 780px) {
+  .container {
+    display: flex;
+  }
+  .box_1 {
+    background-color: dodgerblue;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    color: blue;
+  }
+}
+
+@media print {
+  body {
+    color: green;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+  .title {
+    color: greenyellow;
+  }
+}
+
+@media (orientation: portrait) {
+  .subtitle {
+    color: darkorange;
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+/* default behavior */
+.height-auto {
+  height: auto;
+}
+.height-250 {
+  min-height: 250px;
+}
+
+body {
+  background: #222;
+  color: #ccc;
+  font-size: 1.5rem;
+}
+
+body {
+  display: flex;
+  gap: 2rem;
+}
+
+.parent {
+  margin-top: 5vh;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.parent > * {
+  border: 5px solid limegreen;
+  background: hsl(0 0% 100% / 0.1);
+  padding: 0.5rem;
+  text-align: center;
+}

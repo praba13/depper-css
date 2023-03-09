@@ -1,0 +1,12 @@
+.clr-accent {
+  color: dodgerblue;
+}
+
+/*old*/
+article > .clr-accent:nth-of-type(2) {
+  color: red;
+}
+
+article > :nth-child(2 of .clr-accent) {
+  color: red;
+}
